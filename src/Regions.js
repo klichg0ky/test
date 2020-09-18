@@ -12,7 +12,7 @@ import TableCell from "@material-ui/core/TableCell";
 import RegionsDialog from "./RegionsDialog";
 
 function Regions() {
-  const [open, setOpen] = React.useState(true);
+  const [open, setOpen] = React.useState(false);
   const [regionList, setRegionList] = React.useState([]);
   function openDialog() {
     setOpen(true);
